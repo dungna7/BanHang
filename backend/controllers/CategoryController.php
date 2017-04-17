@@ -16,6 +16,11 @@ class CategoryController extends Controller
 {
     /**
      * @inheritdoc
+     * fhdfhgfhgfhgfhgfhfgh
+     * hgfhgfhgf
+     * hgfh
+     * gfhgf
+     * hgfhf
      */
     public function behaviors()
     {
