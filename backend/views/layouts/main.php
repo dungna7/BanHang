@@ -26,12 +26,6 @@ AppAsset::register($this);
 <?php $this->beginBody() ?>
 
 <div>
-
-    <div class="container">
-        <?= Breadcrumbs::widget([
-            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-        ]) ?>
-    </div>
     <div class="container body">
         <div class="main_container">
             <div class="col-md-3 left_col">
@@ -281,7 +275,6 @@ AppAsset::register($this);
                 <?= Breadcrumbs::widget([
                     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
                 ]) ?>
-                <?= Alert::widget() ?>
                 <?= $content ?>
             </div>
             <!-- /page content -->
